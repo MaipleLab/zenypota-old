@@ -1,0 +1,37 @@
+body {
+    margin: 0;
+    font-family: "Noto Sans Japanese", sans-serif;
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.5;
+    color: #212529;
+    text-align: left;
+    background-color: #fafafa; }
+
+.bg-indigo {
+  background-color: #3f51b5 !important; }
+
+.bg-yellow800 {
+  background-color: #F9A825 !important; }
+
+.fab-fixed {
+  position: fixed;
+  bottom: 24px;
+	right: 24px;
+}
+@media (min-width: 1024px) {
+  .container {
+    max-width: 994px; } 
+@media (min-width: 1380px) {
+  .container {
+    max-width: 1350px; }
+  .fab-block{
+    display: none;} }
+  .side-hint{
+    display: inline;} }
+
+.bg-login {
+  background: #83a4d4;  /* fallback for old browsers */
+  background: -webkit-linear-gradient(to right, #b6fbff, #83a4d4);  /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to right, #b6fbff, #83a4d4); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
